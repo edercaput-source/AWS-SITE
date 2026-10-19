@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Warm white background -->
+  <rect width="1200" height="630" fill="#F5F1EB"/>
+  
+  <!-- Subtle border -->
+  <rect x="2" y="2" width="1196" height="626" fill="none" stroke="#171719" stroke-opacity="0.08" stroke-width="4"/>
+  
+  <!-- Top brand bar in Bordô #702D3A -->
+  <rect x="0" y="0" width="1200" height="12" fill="#702D3A"/>
+
+  <!-- Left Side: Official EWS Gestor Symbol Emblem Card -->
+  <g transform="translate(100, 155)">
+    <!-- White badge card with subtle border -->
+    <rect width="320" height="320" rx="36" fill="#FFFFFF"/>
+    <rect x="1" y="1" width="318" height="318" rx="35" fill="none" stroke="#171719" stroke-opacity="0.12" stroke-width="2"/>
+    
+    <!-- Monogram geometry -->
+    <g transform="translate(60, 60)">
+      <path d="M20 30 H180" stroke="#171719" stroke-width="14" stroke-linecap="round"/>
+      <path d="M20 30 V170 H180" stroke="#171719" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M40 100 H150" stroke="#702D3A" stroke-width="14" stroke-linecap="round"/>
+      <circle cx="170" cy="30" r="14" fill="#702D3A"/>
+      <circle cx="160" cy="170" r="14" fill="#702D3A"/>
+      <circle cx="40" cy="100" r="10" fill="#171719"/>
+    </g>
+  </g>
+
+  <!-- Right Side: Brand Content -->
+  <g transform="translate(470, 165)">
+    <!-- Brand Signature Kicker -->
+    <text x="0" y="32" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="20" letter-spacing="3" text-transform="uppercase" fill="#702D3A">
+      SISTEMAS E GESTÃO EMPRESARIAL
+    </text>
+
+    <!-- Main Title: EWS GESTOR -->
+    <text x="0" y="105" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="64" letter-spacing="1" fill="#171719">
+      EWS <tspan fill="#702D3A">GESTOR</tspan>
+    </text>
+
+    <!-- Value Proposition -->
+    <text x="0" y="165" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="600" font-size="30" fill="#171719">
+      Sistemas e gestão para empresas mais organizadas.
+    </text>
+
+    <!-- Description -->
+    <text x="0" y="215" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="400" font-size="20" fill="#777777">
+      Tecnologia, orientação e acompanhamento empresarial para apoiar
+    </text>
+    <text x="0" y="245" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="400" font-size="20" fill="#777777">
+      a organização de processos, controles e decisões com segurança.
+    </text>
+
+    <!-- 3 Services Tags (Unboxed / Clean Separators) -->
+    <g transform="translate(0, 305)">
+      <text font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="19" fill="#171719">
+        ERP <tspan fill="#702D3A" font-weight="400">·</tspan> Gestão Assistida <tspan fill="#702D3A" font-weight="400">·</tspan> Gestão Completa (BPO)
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom discreet footer bar -->
+  <line x1="100" y1="560" x2="1100" y2="560" stroke="#171719" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="100" y="590" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="500" font-size="15" fill="#777777">
+    EWS Gestor — Soluções sob medida para o empresário brasileiro.
+  </text>
+</svg>

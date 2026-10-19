@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="64" height="64">
+  <!-- Full-bleed Dark Graphite Squircle Badge -->
+  <rect x="0" y="0" width="512" height="512" rx="120" fill="#17181A" />
+  
+  <!-- Centered, High-Contrast Geometric EWS Letters -->
+  <g transform="translate(256, 256) scale(1.15) translate(-256, -240)">
+    <!-- Letter E -->
+    <polygon points="75,185 152,185 145,214 68,214" fill="#FFFFFF" />
+    <polygon points="61,225 135,225 128,254 54,254" fill="#7E2036" />
+    <polygon points="47,265 119,265 112,294 40,294" fill="#FFFFFF" />
+    <!-- Letter W -->
+    <polygon points="137,185 178,185 198,267 228,198 264,198 294,267 314,185 355,185 316,294 281,294 246,221 211,294 176,294" fill="#FFFFFF" />
+    <!-- Letter S -->
+    <path d="M 364,185 L 446,185 C 466,185 476,193 473,210 C 471,224 461,233 443,237 L 416,243 C 403,246 398,250 397,257 C 395,265 401,269 414,269 L 468,269 L 462,294 L 399,294 C 377,294 366,286 369,269 C 371,255 382,245 400,241 L 427,235 C 440,232 445,228 446,221 C 448,213 442,210 430,210 L 370,210 Z" fill="#FFFFFF" />
+  </g>
+</svg>

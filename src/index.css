@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bordo: #702D3A;
+    --color-grafite: #171719;
+    --color-offwhite: #F5F1EB;
+    --color-cinza: #777777;
+    --color-cinza-dark: #3E3E42;
+    --color-purewhite: #FFFFFF;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #F5F1EB;
+    color: #171719;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Minimalist Corporate Component Utilities (No 3D, No Glassmorphism, No Flashy Gradients) */
+.btn-bordo {
+  background-color: #702D3A;
+  color: #FFFFFF;
+  transition: all 0.2s ease-in-out;
+}
+.btn-bordo:hover {
+  background-color: #59232E;
+}
+
+.btn-grafite {
+  background-color: #171719;
+  color: #FFFFFF;
+  transition: all 0.2s ease-in-out;
+}
+.btn-grafite:hover {
+  background-color: #26262B;
+}
+
+.btn-outline {
+  background-color: #FFFFFF;
+  color: #171719;
+  border: 1px solid rgba(23, 23, 25, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+.btn-outline:hover {
+  background-color: #F5F1EB;
+  border-color: rgba(23, 23, 25, 0.35);
+}
+
+.card-corporate {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(23, 23, 25, 0.10);
+  border-radius: 1rem;
+}
+
+.card-dark {
+  background-color: #171719;
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

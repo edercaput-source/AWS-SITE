@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Crisp rendering -->
+    <clipPath id="squircle">
+      <rect x="36" y="36" width="440" height="440" rx="105" />
+    </clipPath>
+  </defs>
+
+  <!-- Deep Graphite Icon Badge -->
+  <rect x="36" y="36" width="440" height="440" rx="105" fill="#17181A" />
+
+  <!-- EWS Logomark Group: Slanted Geometric Styling -->
+  <g transform="translate(64, 185)">
+    <!-- ==================== LETTER E ==================== -->
+    <!-- Top White Bar -->
+    <polygon points="25,0 102,0 95,29 18,29" fill="#FFFFFF" />
+    
+    <!-- Middle Bordô Bar (#7F2035) -->
+    <polygon points="11,40 85,40 78,69 4,69" fill="#7E2036" />
+    
+    <!-- Bottom White Bar -->
+    <polygon points="-3,80 69,80 62,109 -10,109" fill="#FFFFFF" />
+
+    <!-- ==================== LETTER W ==================== -->
+    <!-- Bold geometric W with sharp apexes and precise terminals -->
+    <polygon points="
+      87,0 128,0 148,82 178,13 214,13 244,82 264,0 305,0 
+      266,109 231,109 196,36 161,109 126,109
+    " fill="#FFFFFF" />
+
+    <!-- ==================== LETTER S ==================== -->
+    <!-- Geometric streamlined modern S with smooth curved flow -->
+    <path d="
+      M 314,0
+      L 396,0
+      C 416,0 426,8 423,25
+      C 421,39 411,48 393,52
+      L 366,58
+      C 353,61 348,65 347,72
+      C 345,80 351,84 364,84
+      L 418,84
+      L 412,109
+      L 349,109
+      C 327,109 316,101 319,84
+      C 321,70 332,60 350,56
+      L 377,50
+      C 390,47 395,43 396,36
+      C 398,28 392,25 380,25
+      L 320,25
+      Z
+    " fill="#FFFFFF" />
+  </g>
+</svg>

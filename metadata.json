@@ -1,0 +1,6 @@
+{
+  "name": "EWS Gestor — Sistemas e Gestão Empresarial",
+  "description": "A EWS Gestor reúne tecnologia, orientação e acompanhamento empresarial para ajudar negócios a organizar suas informações, compreender sua operação e aprimorar a forma como são administrados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
